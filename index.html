@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ----to enable the use of icon in HMTL Code by using fontawesome---- -->
+    <script src="https://kit.fontawesome.com/464c5a0ec4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemeun()"></i>
+            </ul>
+                <i class="fas fa-bars" onclick="openmeun()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hello, I'm <span>Theophilus Bamidele</span></h1>
+        </div>
+    </div>
+</div>
+
+<!-- ------------about me------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+
+
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Welcome to my web portfolio! I'm THEOPHILUS BAMIDELE a skilled developer with expertise in a variety of programming languages 
+                   and tools. With hands-on experience in web and mobile app development, 
+                   I've earned certifications in computer science and still looking forward to learn more. 
+                   Explore my work and experiences to see how I can contribute to your projects. 
+                   Let's connect and bring innovative ideas to life!.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('testimony')">Testimony</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Andriod/iOS apps</li>
+                    </ul>
+
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - 2022</span><br>IT Support & Sales Manager at KENSUNGUN HERITAGE NIG ENTERPRISES</li>
+                        <li><span>2019 - 2021</span><br>Science Tutor (NYSC) at GOD's OWN PRIVATE SCHOOL, LAGOS NIGERIA.</li>
+                        <li><span>2018 - 2019</span><br>Internship at FEMTECH INFORMATION TECHNOLOGY</li>
+                        <li><span>2016 - 2018</span><br>Sales Manager at ORIGBEMI VENTURES</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - Till Date</span><br>Masters in Computer Science Staffordshire University.</li>
+                        <li><span>2014 - 2019</span><br>BSc. Computer Science (ICT Option) Ajayi Crowther University Oyo, Oyo state.</li>
+                        <li><span>2011 - 2014</span><br>Chapel Secondary School, ilorin, Kwara state, Nigeria</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="testimony">
+                    <ul>
+                        <li>"Collaborating with Theophilus Bamidele was an absolute game-changer! They're a coding maestro. 
+                            The Parrot Chatter they delivered wasn't just top-notch—it was mind-blowing. From sleek design to flawless functionality, they nailed it. 
+                            Communication was as smooth as their code, leaving our team and clients in awe. If you're after tech brilliance and serious cool factor, 
+                            Theophilus Bamidele is the real deal." <br><span>KEHINDE JACOBS</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- ------------services------------ -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Transforming websites into digital masterpieces. 
+                I excel in the art of web design, crafting visually appealing and functional online spaces. 
+                Let's create a captivating online presence for your brand</p>
+                <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Crafting seamless and user-centric experiences. 
+                My expertise lies in UI/UX design, ensuring that your digital products are not only visually engaging but also incredibly intuitive. 
+                Let's make your users' journey unforgettable.</p>
+                <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Elevating apps to new heights of usability and aesthetics. 
+                I specialize in app design, making sure your mobile applications are not just functional but also visually stunning. 
+                Let's give your app the edge it deserves.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- ------------portfolio-------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Currency Converter</h3>
+                    <p>Experience my work firsthand with a currency converter project I've meticulously crafted. 
+                    This project showcases my coding skills and attention to detail, providing real-time currency exchange rates and a seamless user interface for effortless international transactions. 
+                    Witness the power of technology in simplifying financial interactions and making global commerce a breeze.</p>
+                    <a href="currency_converter/currency_converter.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Weather Forecast</h3>
+                    <p>"Explore my weather forecast project, a testament to my coding expertise. 
+                    This innovative application provides up-to-the-minute weather data, delivering accurate forecasts to users worldwide. 
+                    Experience the intersection of technology and meteorology, and see how I've harnessed data to empower users with weather insights for better planning and decision-making."</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+    <!-- ------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> tbamskolapo1997euro@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +44 (0) 7932 077170</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/thebamid_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Theophilus 2023 <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<!-- ------------java script tag-------- -->
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmeun(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemeun(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
