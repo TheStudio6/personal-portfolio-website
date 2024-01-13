@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>THEOPHILUS BAMIDELE | Personal Portfolio Website</title>
+    <link rel="icon" type="image/icon" href="images/phone-background.png">
     <link rel="stylesheet" href="style.css">
-    <!-- ----to enable the use of icon in HMTL Code by using fontawesome---- -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/android-launchericon-96-96.png" >
+    <link rel="apple-touch-icon" href="images/android-launchericon-72-72.png" >
+    <link rel="apple-touch-icon" href="images/android-launchericon-512-512.png" >
+    <link rel="apple-touch-icon" href="images/android-launchericon-48-48.png" >
+    <link rel="apple-touch-icon" href="images/android-launchericon-192-192.png" >
+    <link rel="apple-touch-icon" href="images/android-launchericon-144-144.png" >
+    <!-- To enable the use of icon in HTML Code by using fontawesome -->
     <script src="https://kit.fontawesome.com/464c5a0ec4.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="header">
     <div class="container">
         <nav>
-            <img src="images/logo.png" class="logo">
+            <img src="images/logo.png" alt="Logo" class="logo">
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" onclick="closemeun()"></i>
-            </ul>
-                <i class="fas fa-bars" onclick="openmeun()"></i>
-        </nav>
+                <li><i class="fas fa-times" onclick="closemeun()"></i></li>
+            </ul>            
+            <i class="fas fa-bars" onclick="openmeun()"></i>
+        </nav>        
         <div class="header-text">
             <p>UI/UX Designer</p>
             <h1>Hello, I'm <span>Theophilus Bamidele</span></h1>
@@ -31,13 +39,14 @@
     </div>
 </div>
 
-<!-- ------------about me------ -->
+<!-- ---------- about me ------- -->
 <div id="about">
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/user.png">
+                <img src="images/user.png" alt="About Me Profile Image">
             </div>
+            
 
 
             <div class="about-col-2">
@@ -95,7 +104,7 @@
     </div>
 </div>
 
-    <!-- ------------services------------ -->
+    <!-- ---------- services ---------- -->
 
 <div id="services">
     <div class="container">
@@ -131,38 +140,44 @@
     </div>
 </div>
 
-    <!-- ------------portfolio-------- -->
+    <!-- ----------- portfolio ------- -->
 
 <div id="portfolio">
     <div class="container">
         <h1 class="sub-title">My work</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/work-1.png">
+                <img src="images/work-1.png" alt="Currency Converter Project Screenshot">
                 <div class="layer">
                     <h3>Currency Converter</h3>
-                    <p>Experience my work firsthand with a currency converter project I've meticulously crafted. 
-                    This project showcases my coding skills and attention to detail, providing real-time currency exchange rates and a seamless user interface for effortless international transactions. 
-                    Witness the power of technology in simplifying financial interactions and making global commerce a breeze.</p>
-                    <a href="currency_converter/currency_converter.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <p>Explore my meticulously crafted currency converter project to witness firsthand the power of technology in simplifying global transactions. 
+                        With real-time exchange rates and a seamless user interface, this showcases my coding skills and attention to detail, 
+                        making international commerce a breeze.</p>
+                    <a href="currency_converter/currency_converter.html" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
+            
             <div class="work">
-                <img src="images/work-2.png">
+                <img src="images/work-2.png" alt="Forecast Project Screenshot">
                 <div class="layer">
-                    <h3>Weather Forecast</h3>
-                    <p>"Explore my weather forecast project, a testament to my coding expertise. 
-                    This innovative application provides up-to-the-minute weather data, delivering accurate forecasts to users worldwide. 
-                    Experience the intersection of technology and meteorology, and see how I've harnessed data to empower users with weather insights for better planning and decision-making."</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h3>Forecast</h3>
+                    <p>Discover my cutting-edge forecast project, showcasing coding expertise. 
+                        This app delivers real-time, precise global weather forecasts, 
+                        merging technology and meteorology to empower users with actionable insights.</p>
+                    <a href="forecast/forecast.html" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
+            
         </div>
         <a href="#" class="btn">See more</a>
     </div>
 </div>
 
-    <!-- ------------contact------------ -->
+    <!-- ---------- contact ---------- -->
 <div id="contact">
     <div class="container">
         <div class="row">
@@ -171,13 +186,15 @@
                 <p><i class="fa-solid fa-paper-plane"></i> tbamskolapo1997euro@gmail.com</p>
                 <p><i class="fa-solid fa-square-phone"></i> +44 (0) 7932 077170</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://instagram.com/thebamid_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/theophilusbamidele" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/theophilus_" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/thebamid_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/theophilus-bamidele-b96a1b267" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
 
-                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                <a href="resume/theophilusbamidele.pdf" download class="btn btn2">Download Resume</a>
+
+
                 
             </div>
             <div class="contact-right">
@@ -196,9 +213,7 @@
     </div>
 </div>
 
-
-
-<!-- ------------java script tag-------- -->
+<!-- ---------- java script tag ---------- -->
 
     <script>
 
@@ -231,6 +246,7 @@
             sidemeu.style.right = "-200px";
         }
     </script>
+<script src="serviceWorker.js"></script>
 
 </body>
 </html>
